@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/ujjal/Documents/Projects/Doctor-Appiontment/api/logs/winston/errors/.a4d50e459537c57fd4613c6d9ca7663b3c586480-audit.json",
+    "files": [
+        {
+            "date": 1727869650878,
+            "name": "/home/ujjal/Documents/Projects/Doctor-Appiontment/api/logs/winston/errors/phu-2024-02-10-17-error.log",
+            "hash": "1b583b1353c9eda63509947aa738c7026d3c1677e236e5bdf6e032b5c9b966d5"
+        }
+    ],
+    "hashType": "sha256"
+}

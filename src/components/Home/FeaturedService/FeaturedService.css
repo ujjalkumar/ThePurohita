@@ -1,0 +1,51 @@
+/* Styling for Purohita Portfolio Cards */
+.purohita-card {
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.purohita-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.purohita-img img {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #f0f0f0;
+    transition: border 0.3s;
+}
+
+.purohita-card:hover .purohita-img img {
+    border-color: #007bff;
+}
+
+.purohita-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.purohita-title {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.social-links .btn {
+    margin: 5px 10px;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-title p {
+    font-size: 1rem;
+    color: #666;
+}

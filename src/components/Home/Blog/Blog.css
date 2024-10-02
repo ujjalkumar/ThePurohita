@@ -1,0 +1,66 @@
+.blogs {
+    background-color: #f9f9f9; /* Light background for the section */
+    padding: 40px 0; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.section-header {
+    margin-bottom: 40px; /* Spacing below header */
+}
+
+.section-header h1 {
+    font-size: 2.5rem; /* Adjust heading size */
+    font-weight: 600; /* Bold weight for the main heading */
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Dark color for headings */
+}
+
+.card {
+    border: none; /* Remove border from cards */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Deeper shadow on hover */
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0; /* Rounded corners for the image */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the image area */
+}
+
+.card-title {
+    font-weight: bold; /* Bold for the blog title */
+    margin-bottom: 10px; /* Space below title */
+    color: #333; /* Dark color for titles */
+}
+
+.card-text {
+    color: #555; /* Dark gray for text */
+    margin-bottom: 10px; /* Space below text */
+}
+
+.text-muted {
+    color: #777; /* Slightly lighter color for author and date */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Custom primary button color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded button */
+    padding: 10px 20px; /* Padding for button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px; /* Adjust image height for smaller screens */
+    }
+}

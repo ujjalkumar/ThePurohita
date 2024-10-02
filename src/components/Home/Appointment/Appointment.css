@@ -1,0 +1,27 @@
+.appointment {
+    background-color: #282c34; /* Dark background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    padding: 40px 20px; /* Padding around the section */
+    color: #fff; /* White text for readability */
+}
+
+.appointment-title {
+    font-size: 2.5rem; /* Larger title size */
+    line-height: 1.2; /* Better line spacing */
+    font-weight: 700; /* Bold title */
+}
+
+.appointment-description {
+    font-size: 1.1rem; /* Slightly larger description text */
+    margin-top: 20px; /* Space above description */
+}
+
+.btn {
+    padding: 10px 30px; /* Extra padding for the button */
+    border-radius: 5px; /* Rounded button corners */
+}
+
+/* Image styling */
+.img-fluid {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}

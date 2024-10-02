@@ -1,0 +1,46 @@
+.testimonial-card {
+    border: none; /* Remove border from cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.card-text {
+    font-size: 1.1rem; /* Larger text size for testimonials */
+    color: #555; /* Dark gray for text */
+    margin-bottom: 10px; /* Space below testimonial text */
+}
+
+.card-title {
+    font-weight: bold; /* Bold for the name */
+    margin-top: 10px; /* Space above name */
+    color: #333; /* Dark color for names */
+}
+
+.rating {
+    margin-top: 10px; /* Space between testimonial and rating */
+    font-size: 1.5rem; /* Make stars larger */
+}
+
+.text-warning {
+    color: #ffc107; /* Yellow color for filled stars */
+}
+
+.text-muted {
+    color: #ccc; /* Gray color for empty stars */
+}
+
+.d-flex {
+    display: flex; /* Use Flexbox for alignment */
+}
+
+.justify-content-center {
+    justify-content: center; /* Center the stars */
+}
+
+.align-items-center {
+    align-items: center; /* Align stars vertically */
+}

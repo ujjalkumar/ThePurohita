@@ -1,0 +1,16 @@
+header{
+    background-image: url('../../../images/bbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:100%;
+}
+header::after{
+    content: '';
+    position: absolute;
+    top:0;
+    right:0;
+    width:30%;
+    z-index: -50;
+    height: 700px;
+}

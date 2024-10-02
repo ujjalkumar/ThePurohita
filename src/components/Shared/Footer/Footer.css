@@ -1,0 +1,39 @@
+.footer {
+    background-color: #021327; /* Primary blue color */
+    color: #ffffff; /* White text color */
+    padding-top: 3rem;
+}
+
+.footer h5 {
+    font-weight: bold; /* Bold headings */
+    margin-bottom: 1rem; /* Space below headings */
+}
+
+.footer p {
+    margin-bottom: 0.5rem; /* Space below paragraphs */
+}
+
+.footer a {
+    color: #ffffff; /* White for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for links */
+}
+
+.footer a:hover {
+    color: #ffd700; /* Gold color on hover for links */
+}
+
+.footer .fab {
+    font-size: 1.5rem; /* Font size for social icons */
+    transition: transform 0.3s; /* Smooth transition for icon hover */
+}
+
+.footer .fab:hover {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center; /* Center align text on small screens */
+    }
+}
