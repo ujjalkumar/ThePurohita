@@ -1,0 +1,89 @@
+/* General Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Content Card Styling */
+.policy-content {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.policy-content:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Heading Styles */
+.policy-content h4 {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.policy-content h4::before {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    border-radius: 5px;
+}
+
+/* Paragraph and List Styling */
+.policy-content p,
+.policy-list li {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* List Style Customization */
+.policy-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.policy-list li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.policy-list li::before {
+    content: "\2022"; /* Unicode for Bullet */
+    font-size: 20px;
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+
+/* Strong Text Styling */
+strong {
+    color: #333333;
+    font-weight: 600;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .policy-content {
+        padding: 20px;
+    }
+
+    .policy-content h4 {
+        font-size: 20px;
+    }
+
+    .policy-content p,
+    .policy-list li {
+        font-size: 14px;
+    }
+}

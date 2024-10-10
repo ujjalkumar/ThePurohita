@@ -1,0 +1,98 @@
+/* index.css */
+
+/* General styling for the testimonial section */
+.container {
+    max-width: 1200px; /* Set a max width for large screens */
+    margin: 0 auto; /* Center the container */
+}
+
+.section-title h2 {
+    font-size: 2.5rem; /* Size of the section title */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Darker title color */
+}
+
+.section-title p {
+    font-size: 1.1rem; /* Size of the subtitle */
+    color: #6c757d; /* Secondary color */
+}
+
+.testimonial-card {
+    background: linear-gradient(145deg, #ffffff, #f1f1f1); /* Light gradient background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation effect */
+    padding: 20px; /* Padding inside the card */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.card-header {
+    display: flex; /* Use flexbox for the header */
+    align-items: center; /* Center items vertically */
+}
+
+.review-img {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    padding: 5px; /* Padding around the image */
+    margin-right: 40px; /* Space between image and text */
+    margin-bottom: 30px; /* Space between image and text */
+}
+
+.review-img img {
+    width: 60px; /* Set a width for the image */
+    height: 60px; /* Set a height for the image */
+    border-radius: 50%; /* Circle shape */
+    object-fit: cover; /* Ensure the image covers the circle */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow around the image */
+}
+
+.card-info {
+    /* No margin needed as it's part of the flex */
+}
+
+.text-start {
+    text-align: start; /* Align text to the left */
+}
+
+.recommended {
+    color: #28a745; /* Recommended color */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px; /* Space below recommended text */
+}
+
+.star {
+    margin-top: 5px; /* Space above the stars */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .testimonial-card {
+        margin: 0 10px; /* Margin for smaller screens */
+    }
+
+    .section-title h2 {
+        font-size: 2rem; /* Smaller title on mobile */
+    }
+
+    .section-title p {
+        font-size: 1rem; /* Smaller subtitle on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-card {
+        margin: 0 5px; /* Margin for extra small screens */
+    }
+
+    .review-img img {
+        width: 50px; /* Smaller image on mobile */
+        height: 50px; /* Smaller image on mobile */
+    }
+}

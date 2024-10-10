@@ -1,0 +1,90 @@
+/* General Container Styles */
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Section Title Styles */
+.section-title {
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #223a66;
+    text-transform: uppercase; /* Ensures titles are uppercase */
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%; /* Ensure image covers card width */
+    border-bottom: 2px solid #223a66;
+}
+
+/* Button Styles */
+.btn-get-started {
+    display: inline-block; /* Ensures proper button styling */
+    background-color: #223a66;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Adds space above button */
+}
+
+.btn-get-started:hover {
+    background-color: #1c2a4b;
+}
+
+/* Flexbox and Alignment */
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* Section Background Styles */
+section {
+    padding: 20px 0;
+    position: relative; /* Ensures absolute positioning of child elements */
+}
+
+/* Custom Styles for We Are Pleased Section */
+section:nth-of-type(2) {
+    background-color: antiquewhite;
+    height: 60vh;
+    background: url('../../images/bg.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section-title h2 {
+        font-size: 1.5rem; /* Smaller titles on mobile */
+    }
+
+    .section-title p {
+        font-size: 1rem; /* Smaller subtitles on mobile */
+    }
+}

@@ -1,0 +1,36 @@
+.contact-section {
+    padding: 100px 0; /* Increased vertical padding for more height */
+    min-height: 900px !important; /* Set a minimum height */
+    overflow: hidden; /* Ensures no overflow */
+}
+
+.info-box, .form-box {
+    background-color: #f8f9fa;
+}
+
+.form-title {
+    font-size: 1.8rem;
+    color: #1977cc;
+    font-weight: bold;
+}
+
+.info-box h4, .info-box p {
+    color: #1977cc;
+}
+
+.btn-send-message {
+    background: #1977cc;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-send-message:hover {
+    background: #145a92;
+}
+
+.map-container {
+    margin-top: 30px;
+}

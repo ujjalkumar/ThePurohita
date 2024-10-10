@@ -1,0 +1,136 @@
+.doctors {
+    padding: 60px 0; /* Increased padding for better spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.member {
+    background-color: #fff; /* White background for each card */
+    border-radius: 15px; /* Rounded corners */
+    border: 1px solid #e0e0e0; /* Light border for definition */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align items horizontally */
+}
+
+.member:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.pic {
+    margin-bottom: 15px; /* Spacing below the image */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    width: 100%; /* Full width to help center */
+}
+.pic img {
+    width: 120px; /* Fixed image size */
+    height: 120px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area */
+    border-radius: 50%; /* Circular image */
+    border: 2px solid #007bff; /* Border around the image */
+}
+
+.member-info {
+    text-align: center; /* Center text within member-info */
+}
+
+.member-info h4 {
+    font-size: 1.5rem; /* Larger font for names */
+    color: #333;
+    margin-bottom: 5px; /* Spacing below the name */
+}
+.languages {
+    font-size: 0.9rem; /* Adjust font size */
+    color: #555; /* Slightly lighter color for languages */
+    margin: 10px 0; /* Spacing around languages */
+}
+.location {
+    font-size: 0.9rem; /* Adjust font size */
+    color: #555; /* Slightly lighter color for languages */
+    margin: 10px 0; /* Spacing around languages */
+}
+.designation {
+    font-weight: bold;
+    color: #007bff; /* Color to highlight designation */
+}
+
+.specialization {
+    font-style: italic;
+    color: #555; /* Slightly lighter color for specialization */
+}
+
+.details {
+    font-size: 0.9rem; /* Smaller font for details */
+    color: #333;
+    margin: 10px 0; /* Spacing around details */
+}
+
+.social {
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center social icons */
+    margin-top: 10px; /* Spacing above social icons */
+}
+
+.social .icon {
+    margin: 0 10px; /* Space between icons */
+    color: #007bff; /* Icon color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social .icon:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .member {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .pic img {
+        width: 100px; /* Smaller image size for mobile */
+        height: 100px; /* Maintain aspect ratio */
+    }
+
+    .member-info h4 {
+        font-size: 1.3rem; /* Smaller font size */
+    }
+
+    .section-title h2 {
+        font-size: 2rem; /* Adjust title size */
+    }
+
+    .section-title p {
+        font-size: 1rem; /* Adjust subtitle size */
+    }
+}
+
+@media (max-width: 576px) {
+    .member-info h4 {
+        font-size: 1.2rem; /* Further reduce font size */
+    }
+
+    .section-title h2 {
+        font-size: 1.8rem; /* Further adjust title size */
+    }
+
+    .section-title p {
+        font-size: 0.9rem; /* Further adjust subtitle size */
+    }
+}

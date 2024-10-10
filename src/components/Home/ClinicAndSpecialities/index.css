@@ -1,0 +1,101 @@
+.section-specialities {
+	background-color: rgb(243, 241, 241);
+	padding: 80px 0;
+	margin: 7rem 0;
+}
+
+@media (max-width: 600px) {
+	.specialities-slider {
+		overflow-x: scroll; /* Enable horizontal scroll on smaller screens */
+	}
+
+	.specialities-slider ::-webkit-scrollbar {
+		width: 10px; /* Width of the scrollbar */
+	}
+
+	.specialities-slider::-webkit-scrollbar {
+		width: 20px; /* Width of the scrollbar */
+	}
+
+	.specialities-slider::-webkit-scrollbar-track {
+		background-color: #ebeaea; /* Background color of the scrollbar track */
+		border-radius: 100px; /* Rounded edges */
+	}
+
+	.specialities-slider::-webkit-scrollbar-thumb {
+		border-radius: 100px; /* Rounded edges for thumb */
+		border: 5px solid transparent; /* Transparent border */
+		background-clip: content-box; /* Allows the background to show */
+		background-color: #4588c4; /* Color of the scrollbar thumb */
+	}
+}
+
+.speicality-img {
+	position: relative;
+	height: 150px; /* Fixed height for uniformity */
+	width: 150px; /* Fixed width for uniformity */
+	box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	border-radius: 50%; /* Circular images */
+	background: #fff; /* White background */
+	transition: 0.4s ease-in; /* Transition effect for hover */
+	overflow: hidden; /* Ensures children stay within bounds */
+}
+
+.speicality-item {
+	text-align: center; /* Center-align text within items */
+}
+
+.speicality-item:hover {
+	transform: scale(1.05); /* Slight scaling on hover */
+	background: rgb(221, 221, 223); /* Light background on hover */
+}
+
+.speicality-item:hover > img {
+	background: none; /* Remove background */
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%); /* Center the image vertically */
+	left: 0;
+	right: 0;
+	margin: 0 auto; /* Center the image */
+}
+
+.speicality-item:hover p {
+	transform: scale(1.1); /* Scale up the text */
+	color: #1977cc; /* Change text color on hover */
+}
+
+.speicality-img img {
+	width: 100%; /* Ensure the image fills the container */
+	height: 100%; /* Ensure the image fills the container */
+	object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+}
+
+.speicality-img span {
+	align-items: center; /* Center align items */
+	position: absolute;
+	bottom: 10px; /* Position from the bottom */
+	right: 10px; /* Position from the right */
+	box-shadow: 1px 6px 14px rgba(0, 0, 0, 0.2); /* Shadow effect */
+	border-radius: 50%; /* Circular background */
+	padding: 5px; /* Padding around the icon */
+	background-color: #fff; /* Background color */
+	display: inline-flex; /* Flexbox layout */
+	justify-content: center; /* Center align */
+}
+
+.speicality-img span i {
+	font-size: 15px; /* Icon size */
+	color: #0de0fe; /* Icon color */
+}
+
+.speicality-item p {
+	font-size: 16px; /* Text size */
+	font-weight: 500; /* Text weight */
+	margin: 30px 0 0; /* Margin above the text */
+	transition: 0.4s ease-in; /* Transition for text effects */
+}
+.griha-pravesh-img {
+	width: 300px !important;
+	height: 180px !important;
+}
